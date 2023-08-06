@@ -116,7 +116,7 @@ _loadMap(position) {
 _onMapClick(e) {
     this.popup
         .setLatLng(e.latlng)
-        .setContent("You clicked the map at " + e.latlng.toString() + ". Fill the form on the right and press Enter to add the workout")
+        .setContent("You clicked the map at " + e.latlng.toString() + ". Fill the form on the left and press Enter to add the workout")
         .openOn(this.#map);
 }
 
